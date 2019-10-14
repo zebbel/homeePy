@@ -1,0 +1,22 @@
+{
+	"configs" : [
+		{
+			"alexaName" : "esszimmer",
+			"port" : 50001,
+			"mqttSet": "homee/set/esszimmer_wohnzimmer/0/onOff"
+		},
+		{
+			"alexaName" : "wohnzimmer",
+			"port" : 50002,
+			"mqttSet": "homee/set/esszimmer_wohnzimmer/1/onOff"
+		},
+		{
+			"alexaName" : "esszimmerlampe",
+			"port" : 50003,
+			"mqttSet": "homee/set/esszimmer_kueche/0/onOff"
+		}
+	],
+	"mqttAdress" : "127.0.0.1",
+	"mqttUser" : "mqtt",
+	"mqttPass" : "mqtt"
+} 
